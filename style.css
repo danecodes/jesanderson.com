@@ -898,3 +898,45 @@ body.boxed-v #wrapper { max-width: 80%; margin: 20px auto; -webkit-box-shadow: 0
 
 @keyframes rotate { 0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+
+
+  /*------------------------------------------------------------------
+  27. Custom
+  -------------------------------------------------------------------*/
+ul#shows {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+ul#shows li {
+  display: block;
+  font-size: 15px; line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+ul#shows li a {
+  display: block;
+  color: #FFF;
+}
+
+ul#shows li .column-1,
+ul#shows li .column-2 {
+  float: left;
+}
+
+ul#shows li div.column-1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #fff;
+  margin-right: 20px;
+  width: 50px;
+  text-align: center;
+}
+
+#calendar {
+  text-align: left;
+}
