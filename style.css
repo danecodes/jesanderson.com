@@ -941,3 +941,7 @@ ul#shows li div.column-1 {
 #calendar {
   text-align: left;
 }
+
+#calendar h3 {
+  margin-bottom: 30px;
+}
