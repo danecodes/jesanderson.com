@@ -912,7 +912,7 @@ ul#shows {
 ul#shows li {
   display: block;
   font-size: 15px;
-  line-height: 15px;
+  line-height: 17px;
   display: flex;
   align-items: top;
   margin-bottom: 50px;
@@ -921,6 +921,10 @@ ul#shows li {
 ul#shows li a {
   display: block;
   color: #FFF;
+}
+
+ul#shows li a:last-of-type {
+  margin-bottom: 5px;
 }
 
 ul#shows li .column-1,
