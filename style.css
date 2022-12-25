@@ -923,6 +923,10 @@ ul#shows li a {
   color: #FFF;
 }
 
+ul#shows li a:first-of-type {
+  font-weight: bold;
+}
+
 ul#shows li a:last-of-type {
   margin-bottom: 5px;
 }
