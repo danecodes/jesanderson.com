@@ -924,11 +924,11 @@ ul#shows li a {
 }
 
 ul#shows li a:first-of-type {
-  font-weight: bold;
 }
 
 ul#shows li a:last-of-type {
   margin-bottom: 5px;
+  color: #f9f624;
 }
 
 ul#shows li .column-1,
